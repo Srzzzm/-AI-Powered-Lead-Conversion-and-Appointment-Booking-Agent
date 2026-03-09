@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from database import get_db
 from config import get_settings
 from channels.router import MessageRouter
+from channels.instagram import send_instagram_dm
 
 router = APIRouter(prefix="/api/webhooks", tags=["webhooks"])
 settings = get_settings()
@@ -36,11 +37,15 @@ async def receive_instagram_message(request: Request, db: Session = Depends(get_
 
         if text:
             msg_router = MessageRouter(db)
-            await msg_router.handle_message(
+            result = await msg_router.handle_message(
                 channel="instagram",
                 channel_user_id=sender_id,
                 message_text=text,
             )
+
+            agent_text = result.get("agent_response")
+            if agent_text:
+                await send_instagram_dm(sender_id, agent_text)
 
     except (KeyError, IndexError) as e:
         print(f"Error parsing Instagram message: {e}")

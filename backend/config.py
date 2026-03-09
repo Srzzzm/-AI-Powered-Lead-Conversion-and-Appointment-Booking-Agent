@@ -23,6 +23,9 @@ class Settings(BaseSettings):
     # CORS
     cors_origins: str = "http://localhost:5173"
 
+    # Reminder / inactivity handling
+    reminder_inactive_minutes: int = 5  # minutes of silence before a reminder
+
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

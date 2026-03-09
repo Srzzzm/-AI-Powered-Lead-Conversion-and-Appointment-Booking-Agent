@@ -7,26 +7,46 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
-from database import init_db
+import asyncio
+
+from database import init_db, SessionLocal
 from config import get_settings
 from api.leads import router as leads_router
 from api.analytics import router as analytics_router
 from api.appointments import router as appointments_router
+from api.cron import router as cron_router
 from channels.whatsapp import router as whatsapp_router
 from channels.instagram import router as instagram_router
 from channels.webchat import router as webchat_router
+from services.reminder import ReminderService
 
 settings = get_settings()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Initialize database on startup."""
+    """Initialize database on startup and start background tasks."""
     init_db()
     print("🏥 HealthFirst AI Lead Agent started!")
     print("📊 Dashboard API: http://localhost:8000/api/leads/")
     print("💬 WebSocket Chat: ws://localhost:8000/ws/chat/{session_id}")
     print("📈 Analytics: http://localhost:8000/api/analytics/conversion")
+
+    # Start background reminder loop
+    async def reminder_loop():
+        while True:
+            try:
+                db = SessionLocal()
+                service = ReminderService(db)
+                await service.run_reminder_tick()
+            except Exception as exc:
+                print(f"[reminder_loop] error: {exc}")
+            finally:
+                db.close()
+            await asyncio.sleep(60)  # run every 60 seconds
+
+    asyncio.create_task(reminder_loop())
+
     yield
 
 
@@ -50,6 +70,7 @@ app.add_middleware(
 app.include_router(leads_router)
 app.include_router(analytics_router)
 app.include_router(appointments_router)
+app.include_router(cron_router)
 
 # Register webhook routers
 app.include_router(whatsapp_router)

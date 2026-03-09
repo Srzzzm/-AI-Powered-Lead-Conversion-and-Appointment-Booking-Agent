@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 from database import get_db
 from config import get_settings
 from channels.router import MessageRouter
+from channels.whatsapp import send_whatsapp_message
 
 router = APIRouter(prefix="/api/webhooks", tags=["webhooks"])
 settings = get_settings()
@@ -50,11 +51,16 @@ async def receive_whatsapp_message(request: Request, db: Session = Depends(get_d
 
             # Route to message handler
             msg_router = MessageRouter(db)
-            await msg_router.handle_message(
+            result = await msg_router.handle_message(
                 channel="whatsapp",
                 channel_user_id=sender,
                 message_text=text,
             )
+
+            # Send AI agent response back to the user via WhatsApp
+            agent_text = result.get("agent_response")
+            if agent_text:
+                await send_whatsapp_message(sender, agent_text)
 
     except (KeyError, IndexError) as e:
         print(f"Error parsing WhatsApp message: {e}")
