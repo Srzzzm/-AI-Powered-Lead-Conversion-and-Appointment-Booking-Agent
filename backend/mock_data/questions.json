@@ -1,0 +1,150 @@
+{
+    "questions": [
+        {
+            "id": "Q1",
+            "text": "Could you tell me more about the specific treatment or service you're looking for?",
+            "category": "service_identification",
+            "stage": "early",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q2",
+            "text": "How soon would you like to get this done? Is there a specific timeline you have in mind?",
+            "category": "urgency",
+            "stage": "early",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q3",
+            "text": "Will you be using insurance coverage, or would this be a self-pay visit?",
+            "category": "insurance",
+            "stage": "early",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q4",
+            "text": "Have you visited our hospital before, or is this your first time?",
+            "category": "prior_experience",
+            "stage": "mid",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q5",
+            "text": "Are you currently experiencing any symptoms that need immediate attention?",
+            "category": "urgency",
+            "stage": "early",
+            "applies_to": [
+                "orthopedics",
+                "cardiology",
+                "pediatrics",
+                "general"
+            ]
+        },
+        {
+            "id": "Q6",
+            "text": "Do you have any previous diagnostic reports (X-ray, MRI, blood tests) related to this condition?",
+            "category": "medical_history",
+            "stage": "mid",
+            "applies_to": [
+                "orthopedics",
+                "cardiology",
+                "diagnostics"
+            ]
+        },
+        {
+            "id": "Q7",
+            "text": "Is this appointment for yourself or for a family member?",
+            "category": "patient_identification",
+            "stage": "early",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q8",
+            "text": "What's the age of the patient? This helps us assign the right specialist.",
+            "category": "patient_identification",
+            "stage": "mid",
+            "applies_to": [
+                "pediatrics",
+                "cardiology",
+                "general"
+            ]
+        },
+        {
+            "id": "Q9",
+            "text": "Are you currently on any medications? If yes, could you share the names?",
+            "category": "medical_history",
+            "stage": "mid",
+            "applies_to": [
+                "cardiology",
+                "orthopedics"
+            ]
+        },
+        {
+            "id": "Q10",
+            "text": "Would you prefer a morning or afternoon appointment slot?",
+            "category": "scheduling",
+            "stage": "late",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q11",
+            "text": "Which insurance provider are you with? We can check if we're on their network.",
+            "category": "insurance_detail",
+            "stage": "mid",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q12",
+            "text": "Have you been referred by another doctor? If so, could you share the referral?",
+            "category": "referral",
+            "stage": "mid",
+            "applies_to": [
+                "orthopedics",
+                "cardiology",
+                "ophthalmology"
+            ]
+        },
+        {
+            "id": "Q13",
+            "text": "Are you aware of our health checkup packages? Would you like me to share details?",
+            "category": "upsell",
+            "stage": "late",
+            "applies_to": [
+                "health_checkup",
+                "general"
+            ]
+        },
+        {
+            "id": "Q14",
+            "text": "How did you hear about us? This helps us serve you better.",
+            "category": "attribution",
+            "stage": "late",
+            "applies_to": [
+                "all"
+            ]
+        },
+        {
+            "id": "Q15",
+            "text": "Would you like me to book an appointment for you right now? I can check available slots.",
+            "category": "conversion",
+            "stage": "late",
+            "applies_to": [
+                "all"
+            ]
+        }
+    ]
+}

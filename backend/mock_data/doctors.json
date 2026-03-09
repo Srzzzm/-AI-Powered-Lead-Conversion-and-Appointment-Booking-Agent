@@ -1,0 +1,163 @@
+{
+    "specialties": [
+        {
+            "name": "Orthopedics",
+            "doctors": [
+                {
+                    "name": "Dr. Rajesh Menon",
+                    "slots": [
+                        {
+                            "id": "ORTH-001",
+                            "date": "2026-03-10",
+                            "time": "09:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "ORTH-002",
+                            "date": "2026-03-10",
+                            "time": "11:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "ORTH-003",
+                            "date": "2026-03-11",
+                            "time": "10:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "ORTH-004",
+                            "date": "2026-03-11",
+                            "time": "02:00 PM",
+                            "available": false
+                        },
+                        {
+                            "id": "ORTH-005",
+                            "date": "2026-03-12",
+                            "time": "09:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "ORTH-006",
+                            "date": "2026-03-13",
+                            "time": "03:00 PM",
+                            "available": true
+                        },
+                        {
+                            "id": "ORTH-007",
+                            "date": "2026-03-14",
+                            "time": "10:00 AM",
+                            "available": true
+                        }
+                    ]
+                }
+            ],
+            "preparation": "Please bring previous X-rays/MRI reports. Wear comfortable clothing. Fast for 4 hours if blood work is needed."
+        },
+        {
+            "name": "Cardiology",
+            "doctors": [
+                {
+                    "name": "Dr. Sunita Kapoor",
+                    "slots": [
+                        {
+                            "id": "CARD-001",
+                            "date": "2026-03-10",
+                            "time": "10:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "CARD-002",
+                            "date": "2026-03-10",
+                            "time": "02:00 PM",
+                            "available": true
+                        },
+                        {
+                            "id": "CARD-003",
+                            "date": "2026-03-11",
+                            "time": "09:00 AM",
+                            "available": false
+                        },
+                        {
+                            "id": "CARD-004",
+                            "date": "2026-03-12",
+                            "time": "11:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "CARD-005",
+                            "date": "2026-03-13",
+                            "time": "09:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "CARD-006",
+                            "date": "2026-03-13",
+                            "time": "03:00 PM",
+                            "available": true
+                        },
+                        {
+                            "id": "CARD-007",
+                            "date": "2026-03-14",
+                            "time": "10:00 AM",
+                            "available": true
+                        }
+                    ]
+                }
+            ],
+            "preparation": "Fast for 12 hours before the appointment. Bring a list of current medications. Avoid caffeine 24 hours prior."
+        },
+        {
+            "name": "Pediatrics",
+            "doctors": [
+                {
+                    "name": "Dr. Anil Gupta",
+                    "slots": [
+                        {
+                            "id": "PED-001",
+                            "date": "2026-03-10",
+                            "time": "09:30 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "PED-002",
+                            "date": "2026-03-10",
+                            "time": "11:30 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "PED-003",
+                            "date": "2026-03-10",
+                            "time": "04:00 PM",
+                            "available": true
+                        },
+                        {
+                            "id": "PED-004",
+                            "date": "2026-03-11",
+                            "time": "09:00 AM",
+                            "available": true
+                        },
+                        {
+                            "id": "PED-005",
+                            "date": "2026-03-12",
+                            "time": "10:00 AM",
+                            "available": false
+                        },
+                        {
+                            "id": "PED-006",
+                            "date": "2026-03-13",
+                            "time": "02:00 PM",
+                            "available": true
+                        },
+                        {
+                            "id": "PED-007",
+                            "date": "2026-03-14",
+                            "time": "09:00 AM",
+                            "available": true
+                        }
+                    ]
+                }
+            ],
+            "preparation": "Bring vaccination records. Note down symptoms with timeline. Carry a comfort item for the child."
+        }
+    ]
+}

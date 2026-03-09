@@ -1,0 +1,276 @@
+[
+    {
+        "lead_name": "Amit Shah",
+        "channel": "whatsapp",
+        "service": "Orthopedics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q5"
+        ],
+        "response_time_sec": 15
+    },
+    {
+        "lead_name": "Kavita Joshi",
+        "channel": "instagram",
+        "service": "Cardiology",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q5",
+            "Q3",
+            "Q10"
+        ],
+        "response_time_sec": 22
+    },
+    {
+        "lead_name": "Ravi Teja",
+        "channel": "whatsapp",
+        "service": "Diagnostics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q15"
+        ],
+        "response_time_sec": 8
+    },
+    {
+        "lead_name": "Sonia Gill",
+        "channel": "webchat",
+        "service": "Dentistry",
+        "score": "warm",
+        "outcome": "nurturing",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q7",
+            "Q11"
+        ],
+        "response_time_sec": 45
+    },
+    {
+        "lead_name": "Manoj Yadav",
+        "channel": "whatsapp",
+        "service": "Pediatrics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q5",
+            "Q8",
+            "Q10"
+        ],
+        "response_time_sec": 12
+    },
+    {
+        "lead_name": "Pooja Bansal",
+        "channel": "instagram",
+        "service": "Health Checkup",
+        "score": "warm",
+        "outcome": "nurturing",
+        "questions_asked": [
+            "Q1",
+            "Q7",
+            "Q13",
+            "Q14"
+        ],
+        "response_time_sec": 60
+    },
+    {
+        "lead_name": "Gaurav Mehta",
+        "channel": "whatsapp",
+        "service": "Orthopedics",
+        "score": "cold",
+        "outcome": "lost",
+        "questions_asked": [
+            "Q1",
+            "Q2"
+        ],
+        "response_time_sec": 120
+    },
+    {
+        "lead_name": "Swati Agarwal",
+        "channel": "webchat",
+        "service": "General",
+        "score": "cold",
+        "outcome": "lost",
+        "questions_asked": [
+            "Q1"
+        ],
+        "response_time_sec": 300
+    },
+    {
+        "lead_name": "Naveen Reddy",
+        "channel": "whatsapp",
+        "service": "Cardiology",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q5",
+            "Q9",
+            "Q3",
+            "Q10"
+        ],
+        "response_time_sec": 18
+    },
+    {
+        "lead_name": "Ishita Sen",
+        "channel": "instagram",
+        "service": "Ophthalmology",
+        "score": "warm",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q12",
+            "Q3",
+            "Q15"
+        ],
+        "response_time_sec": 30
+    },
+    {
+        "lead_name": "Tarun Bhatia",
+        "channel": "whatsapp",
+        "service": "Diagnostics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q15"
+        ],
+        "response_time_sec": 10
+    },
+    {
+        "lead_name": "Nisha Kapoor",
+        "channel": "instagram",
+        "service": "Maternity",
+        "score": "warm",
+        "outcome": "nurturing",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q7",
+            "Q11"
+        ],
+        "response_time_sec": 55
+    },
+    {
+        "lead_name": "Sameer Khan",
+        "channel": "whatsapp",
+        "service": "Pediatrics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q5",
+            "Q8",
+            "Q3",
+            "Q10"
+        ],
+        "response_time_sec": 14
+    },
+    {
+        "lead_name": "Rekha Menon",
+        "channel": "webchat",
+        "service": "General",
+        "score": "cold",
+        "outcome": "lost",
+        "questions_asked": [
+            "Q1",
+            "Q14"
+        ],
+        "response_time_sec": 200
+    },
+    {
+        "lead_name": "Ankur Dubey",
+        "channel": "whatsapp",
+        "service": "Cardiology",
+        "score": "warm",
+        "outcome": "lost",
+        "questions_asked": [
+            "Q1",
+            "Q5",
+            "Q3"
+        ],
+        "response_time_sec": 90
+    },
+    {
+        "lead_name": "Divya Pillai",
+        "channel": "instagram",
+        "service": "Health Checkup",
+        "score": "warm",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q7",
+            "Q13",
+            "Q11",
+            "Q15"
+        ],
+        "response_time_sec": 25
+    },
+    {
+        "lead_name": "Kiran Rao",
+        "channel": "whatsapp",
+        "service": "Orthopedics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q5",
+            "Q6",
+            "Q3",
+            "Q10"
+        ],
+        "response_time_sec": 11
+    },
+    {
+        "lead_name": "Bhavna Jain",
+        "channel": "webchat",
+        "service": "Dentistry",
+        "score": "cold",
+        "outcome": "lost",
+        "questions_asked": [
+            "Q1",
+            "Q2"
+        ],
+        "response_time_sec": 180
+    },
+    {
+        "lead_name": "Rohit Malhotra",
+        "channel": "whatsapp",
+        "service": "Diagnostics",
+        "score": "hot",
+        "outcome": "converted",
+        "questions_asked": [
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q10"
+        ],
+        "response_time_sec": 9
+    },
+    {
+        "lead_name": "Sunita Devi",
+        "channel": "instagram",
+        "service": "Pediatrics",
+        "score": "warm",
+        "outcome": "nurturing",
+        "questions_asked": [
+            "Q1",
+            "Q7",
+            "Q8",
+            "Q5"
+        ],
+        "response_time_sec": 40
+    }
+]

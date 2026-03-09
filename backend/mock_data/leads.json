@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Priya Sharma",
+    "contact": "+919876543210",
+    "channel": "whatsapp",
+    "raw_message": "Hi, I need knee replacement surgery urgently. My doctor recommended it last week. I have Star Health insurance.",
+    "service_interest": "Orthopedics - Knee Replacement",
+    "urgency": "high",
+    "expected_score": "hot"
+  },
+  {
+    "name": "Rahul Verma",
+    "contact": "+919812345678",
+    "channel": "instagram",
+    "raw_message": "Do you offer dental implants? What's the cost?",
+    "service_interest": "Dentistry - Dental Implants",
+    "urgency": "medium",
+    "expected_score": "warm"
+  },
+  {
+    "name": "Anita Desai",
+    "contact": "+919723456789",
+    "channel": "whatsapp",
+    "raw_message": "Just browsing. What specialties does your hospital have?",
+    "service_interest": "General Inquiry",
+    "urgency": "low",
+    "expected_score": "cold"
+  },
+  {
+    "name": "Suresh Kumar",
+    "contact": "+919634567890",
+    "channel": "whatsapp",
+    "raw_message": "I need an MRI scan for my lower back. Can I book for tomorrow? I'll pay myself.",
+    "service_interest": "Diagnostics - MRI Scan",
+    "urgency": "high",
+    "expected_score": "hot"
+  },
+  {
+    "name": "Meera Nair",
+    "contact": "+919545678901",
+    "channel": "instagram",
+    "raw_message": "What packages do you have for full body checkup? Looking for my parents.",
+    "service_interest": "Health Checkup - Full Body",
+    "urgency": "medium",
+    "expected_score": "warm"
+  },
+  {
+    "name": "Vikram Singh",
+    "contact": "+919456789012",
+    "channel": "whatsapp",
+    "raw_message": "My child has high fever since 2 days. Need pediatric consultation immediately. We have CGHS coverage.",
+    "service_interest": "Pediatrics - Consultation",
+    "urgency": "high",
+    "expected_score": "hot"
+  },
+  {
+    "name": "Lakshmi Iyer",
+    "contact": "+919367890123",
+    "channel": "webchat",
+    "raw_message": "I'm comparing hospitals for cataract surgery. What's your success rate?",
+    "service_interest": "Ophthalmology - Cataract Surgery",
+    "urgency": "low",
+    "expected_score": "cold"
+  },
+  {
+    "name": "Arjun Patel",
+    "contact": "+919278901234",
+    "channel": "instagram",
+    "raw_message": "Need cardiac checkup asap. Father had heart attack history. I'm 45 and getting chest pains.",
+    "service_interest": "Cardiology - Checkup",
+    "urgency": "high",
+    "expected_score": "hot"
+  },
+  {
+    "name": "Deepa Reddy",
+    "contact": "+919189012345",
+    "channel": "whatsapp",
+    "raw_message": "Looking for maternity packages. Due in 3 months. Have New India Assurance.",
+    "service_interest": "Obstetrics - Maternity Package",
+    "urgency": "medium",
+    "expected_score": "warm"
+  },
+  {
+    "name": "Farhan Ahmed",
+    "contact": "+919090123456",
+    "channel": "webchat",
+    "raw_message": "What are your visiting hours? Also, do you have parking?",
+    "service_interest": "General Inquiry",
+    "urgency": "low",
+    "expected_score": "cold"
+  }
+]
